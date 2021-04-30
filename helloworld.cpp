@@ -8,6 +8,7 @@ int main()
 {
     vector<string> msg {"Hello", "C++", "World", "from", "VS Code", "and the C++ extension!"};
 
+    //iterates through vector and outputs string stored in indices.
     for (const string& word : msg)
     {
         cout << word << " ";
