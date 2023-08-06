@@ -1,14 +1,36 @@
-.centered-image {
+.centered-image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     position: absolute;
     top: 50%;
-    right: 0;
-    transform: translateY(-50%);
-    max-height: 80vh; /* Adjust the maximum height of the image */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .centered-image-text {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 1rem; /* Add this line to reduce spacing between text and image */
+  }
+
+  .centered-image-subtext {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 1rem; /* Add this line to reduce spacing between text and image */
+  }
+  
+  .centered-image {
+    margin-top: 1rem; /* Adjust the margin as needed */
+    max-width: 70%; /* Set the width to 20% of the original size */
   }
   
   .centered-image img {
     display: block;
-    max-width: 50%;
+    width: 100%;
     height: auto;
   }
   
