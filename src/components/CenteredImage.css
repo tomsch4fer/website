@@ -1,0 +1,14 @@
+.centered-image {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    max-height: 80vh; /* Adjust the maximum height of the image */
+  }
+  
+  .centered-image img {
+    display: block;
+    max-width: 50%;
+    height: auto;
+  }
+  

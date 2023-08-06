@@ -6,6 +6,7 @@ import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 import Footer from './components/footer';
+import CenteredImage from './components/CenteredImage';
 import './App.css';
 
 const App = () => {
@@ -56,6 +57,7 @@ const App = () => {
           <Route path="/contact" element={<Contact />} />
         </Routes>
 
+        <CenteredImage /> {/* Include the CenteredImage component here */}
         <Footer /> {/* Add the Footer component at the bottom of the page */}
       </div>
     </Router>
