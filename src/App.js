@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
+import Footer from './components/footer';
 import './App.css';
 
 const App = () => {
@@ -54,6 +55,8 @@ const App = () => {
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
+
+        <Footer /> {/* Add the Footer component at the bottom of the page */}
       </div>
     </Router>
   );
