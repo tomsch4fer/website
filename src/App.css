@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: ;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background: rgba(216, 216, 216, 0.7); /* Adding a semi-transparent white background for the Navbar */
+  padding: 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: black;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-link {
+  color: black;
+  text-decoration: none;
+  margin-left: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-icon {
+  margin-right: 0.5rem;
+}
+
+@keyframes rainbow {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
