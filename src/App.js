@@ -8,11 +8,17 @@ import Contact from './pages/Contact';
 import Footer from './components/footer';
 import CenteredImage from './components/CenteredImage';
 import './App.css';
+import { Helmet } from 'react-helmet';
+
 
 const App = () => {
   return (
     <Router>
       <div>
+      <Helmet>
+        <title>Tom Schäfer</title>
+          <link rel="icon" type="image/png" href="images/heart.png" />
+        </Helmet>
         <nav className="navbar">
           <div className="navbar-left">
             <Link to="/">
