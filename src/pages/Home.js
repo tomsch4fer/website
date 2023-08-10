@@ -1,10 +1,11 @@
 import React from 'react';
+import CenteredImage from '../components/CenteredImage'; // Adjust the path as needed
+
 
 const Home = () => {
   return (
     <div>
-      <h1>Welcome to my Portfolio</h1>
-      <p>This is the Home page</p>
+      
     </div>
   );
 };

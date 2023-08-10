@@ -10,7 +10,7 @@
   }
   
   .centered-image-text {
-    font-size: 4rem;
+    font-size: 2rem;
     font-weight: bold;
     color: #fff;
     margin-bottom: 1rem; /* Add this line to reduce spacing between text and image */
@@ -18,7 +18,7 @@
   }
 
   .centered-image-subtext {
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: bold;
     color: #fff;
     margin-bottom: 1rem; /* Add this line to reduce spacing between text and image */
