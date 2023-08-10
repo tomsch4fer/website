@@ -4,10 +4,10 @@ import './CenteredImage.css';
 const CenteredImage = () => {
   return (
     <div className="centered-image-container">
-      <p className="centered-image-text">Grüß Gott. Ich bin Tom, Hobby-Developer.</p>
-      <p className="centered-image-subtext">Schön, dass du meine Website besuchst.</p>
       <div className="centered-image">
-        <img src={require('../images/t5.jpg')} alt="Centered" />
+      <p className="centered-image-text">Grüß Gott. Ich bin Tom, Hobby-Entwickler.</p>
+      <p className="centered-image-subtext">Schön, dass du meine Website besuchst.</p>
+        <img src={require('../images/t5.jpg')} alt="pic of me" />
       </div>
     </div>
   );

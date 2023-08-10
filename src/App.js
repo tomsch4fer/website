@@ -2,7 +2,6 @@
 /* eslint-disable react/jsx-no-undef */
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import { AiOutlineHome, AiOutlineUser, AiOutlineProject, AiOutlineMail } from 'react-icons/ai';
 import Home from './pages/Home';
 import About from './pages/About';
 import Portfolio from './pages/Portfolio';
@@ -40,7 +39,7 @@ const App = () => (
       </Routes>
 
       <CenteredImage /> {/* Include the CenteredImage component here */}
-      <Footer /> {/* Add the Footer component at the bottom of the page */}
+      
     </div>
   </Router>
 );
