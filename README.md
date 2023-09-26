@@ -1,6 +1,5 @@
 # Personal Website
-### avalibility
-- https://tomsch4fer.de/
+https://tomsch4fer.de/
 
 ### Sources
 [Design by HTML5UP](https://html5up.net/dimension)
