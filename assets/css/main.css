@@ -53,7 +53,6 @@ table {
 
 body {
 	-webkit-text-size-adjust: none;
-	text-size-adjust: none;
 }
 
 mark {
@@ -76,10 +75,6 @@ input, select, textarea {
 /* Basic */
 
 	@-ms-viewport {
-		width: device-width;
-	}
-
-	@viewport {
 		width: device-width;
 	}
 
