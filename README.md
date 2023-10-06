@@ -8,4 +8,6 @@ Hosts using [MonoVM](https://dashboard.monovm.com/)
 
 Deploys using [Netlify](https://app.netlify.com/teams/tomsch4fer/overview)
 
+Form-backend using [Formspree](https://formspree.io/forms)
+
 Design by [HTML5UP](https://html5up.net/dimension)
